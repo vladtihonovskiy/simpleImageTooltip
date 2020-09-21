@@ -1,0 +1,13 @@
+.add_update_image_form {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 15px;
+  height: 80%;
+  overflow: scroll;
+  margin: 100px auto 0 auto;
+
+  &__control_button {
+    margin-top: 10px !important;
+  }
+}
+

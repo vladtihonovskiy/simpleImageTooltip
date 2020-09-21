@@ -1,0 +1,24 @@
+@import '../../Theme.module';
+.images_grid {
+  padding-top: 50px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: $tabled-width) {
+  .images_grid {
+
+    &__wrapper {
+      justify-content: center;
+    }
+  }
+}

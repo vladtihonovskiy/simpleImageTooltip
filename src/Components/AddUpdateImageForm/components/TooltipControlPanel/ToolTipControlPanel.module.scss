@@ -1,0 +1,11 @@
+.tool_tip_control_panel {
+  &__row {
+    display: flex;
+    align-items: center;
+
+    :first-child {
+      margin-right: 30px;
+    }
+  }
+}
+
